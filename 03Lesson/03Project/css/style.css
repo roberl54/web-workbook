@@ -15,7 +15,7 @@ body {
 header {
     text-align: center;
     margin: 100px auto;
-    padding: 80px;
+    padding: 100px 80px 80px;
     background-color: #fff;
 }
 
@@ -37,7 +37,7 @@ section {
 
 article {
     background-color: white;
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 20px;
 }
 
@@ -70,7 +70,7 @@ h1 {
     letter-spacing: 20px;
     text-transform: uppercase;
     padding: 30px 30px 30px 50px;
-    border: 2px solid gray;
+    border: 2px solid #555;
     display: inline-block;
 }
 
@@ -90,7 +90,7 @@ h3 {
     letter-spacing: 7px;
     text-transform: uppercase;
     display: block;
-    color: #444;
+    /*color: #444;*/
 }
 
 h4 {
@@ -104,7 +104,7 @@ h4 {
 
 h5 {
     font-family: 'Gilda Display', 'Times', serif;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 28px;
     letter-spacing: 1px;
     color: #444;
@@ -120,7 +120,7 @@ h6 {
     margin: 60px 0 20px;
 }
 
-h6:after {
+/*h6:after {
     content: "";
     margin: auto;
     display: block;
@@ -129,8 +129,8 @@ h6:after {
     top: 15px;
     width: 30%;
     height: 2px;
-    border-bottom: 2px solid gray;
-}
+    border-bottom: 2px solid #555;
+}*/
 
 p, ul, li {
     font-family: 'Lato', sans-serif;
@@ -140,4 +140,11 @@ p, ul, li {
     line-height: 23px;
     margin: 0 0 20px;
     color: #444;
+}
+
+hr {
+    border: 1px solid #555;
+    width: 45px;
+    margin: 0;
+    margin-bottom: 25px;
 }
