@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html {
     font-family: 'Helvetica', sans-serif;
 }
@@ -5,6 +6,12 @@ html {
 body {
     width: 850px;
     margin: 20px auto;
+=======
+body {
+    width: 850px;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+>>>>>>> gh-pages
 }
 
 main {
@@ -15,6 +22,7 @@ main {
     background-position: bottom;
     background-repeat: no-repeat;
     display: table;
+<<<<<<< HEAD
 }
 
 main h1 {
@@ -23,10 +31,14 @@ main h1 {
     font-size: 100px;
     display: table-cell;
     vertical-align: middle;
+=======
+    margin-bottom: 20px;
+>>>>>>> gh-pages
 }
 
 section {
     background-color: #eee;
+<<<<<<< HEAD
     margin-top: 10px;
 }
 
@@ -35,11 +47,15 @@ section {
     display: block;
     content: " ";
     clear: both;
+=======
+    height: 324px;
+>>>>>>> gh-pages
 }
 
 div {
     width: 270px;
     float: left;
+<<<<<<< HEAD
     padding-bottom: 20px;
 }
 
@@ -58,6 +74,43 @@ p {
 h4 {
   font-weight: bold;
   padding: 0 25px 0;
+=======
+}
+
+p {
+  color: #555;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 25px 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover {
+  color: #222;
+}
+
+a: visited, a:visited a:hover {
+  color: #555;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h3 {
+  padding: 5px 25px 0;
+>>>>>>> gh-pages
 }
 
 form {
@@ -66,11 +119,22 @@ form {
 
 form p {
   padding: 0;
+<<<<<<< HEAD
   margin-bottom: 5px;
+=======
+}
+
+textarea {
+  border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  resize: none;
+>>>>>>> gh-pages
 }
 
 input {
   border: none;
+<<<<<<< HEAD
   background-color: #333;
   color: white;
   padding: 10px;
@@ -81,4 +145,24 @@ textarea {
   border: none;
   width: 100%;
   margin-bottom: 10px;
+=======
+  background-color: #444;
+  color: white;
+  padding: 5px 20px;
+  font-size: 18px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+#office-info {
+    padding: 0 20px 0;
+>>>>>>> gh-pages
 }
